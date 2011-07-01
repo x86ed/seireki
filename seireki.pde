@@ -1,11 +1,9 @@
-
 int ACPin = 9;    // LED connected to digital pin 9
 int DCPin = 11;
 char incomingByte;
 boolean acInput = false;
 boolean dcInput = false;
-char acVal[4] = {'0','0','0','\0'
-};
+char acVal[4] = {'0','0','0','\0'};
 char dcVal[4] = {'0','0','0','\0'};
 int valIndex =0;
 
